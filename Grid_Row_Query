@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Notification</title>
+    <style>
+        body {
+            background-color: #F6F6F6;
+        }
+
+        div.card {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            background-color: #5F35F1;
+            width: 70%;
+            margin: 0px;
+            padding: 0px;
+            border-top-right-radius: 75px;
+            border-bottom-right-radius: 75px;
+            box-shadow: 0px 3px 10px 1px #000;
+        }
+
+        p.title {
+            grid-column: 2;
+            text-align: center;
+            margin: 10px;
+            padding: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+
+        p.date {
+            grid-column: 3;
+            text-align: right;
+            margin: auto;
+            padding: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #FFFFFF;
+            font-size: smaller;
+        }
+
+        table {
+            border-color: #FFFFFF;
+            grid-column: 2;
+            margin: 10px;
+        }
+
+        table caption {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #FFFFFF;
+        }
+
+        th {
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #FFFFFF;
+            font-weight: 400;
+        }
+
+        td {
+            text-align: center;
+            color: #F6F6F6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        div.card2 {
+            grid-row: 2;
+            padding: 0px;
+            margin: 0px;
+            background-color: #F9F9F9;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card2">
+        </div>
+        <p class="title">New Task Added in MyJake's for JOHNDOE!</p>
+        <p class="date">01/01/0000 00:00:00</p>
+        <table border = 2>
+            <caption>Task Details</caption>
+            <tr>
+                <th>Title</th>
+                <td>Test A</td>
+            </tr>
+            <tr>
+                <th>Priority</th>
+                <td>High</td>
+            </tr>
+            <tr>
+                <th>Frequency</th>
+                <td>One Time Only</td>
+            </tr>
+            <tr>
+                <th>Due Date</th>
+                <td>01/01/0000</td>
+            </tr>
+            <tr>
+                <th>Days Till Due</th>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, iste unde. Voluptas vero recusandae fuga molestias nostrum consequatur aperiam accusamus praesentium. Illum temporibus facere soluta perspiciatis sit veritatis mollitia unde ratione sapiente laboriosam quis officiis quasi, dolore nostrum libero vel ad, expedita nulla repudiandae repellat voluptate? Recusandae, dolores quod. Explicabo?
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
